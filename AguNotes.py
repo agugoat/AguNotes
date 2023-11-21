@@ -59,7 +59,7 @@ def get_gpt_suggestions(user_notes):
         response_text.config(state="disabled")  # Make the text read-only
         response_text.pack()
 
-        # Optionally, you can add a scrollbar to the Text widget
+    
 
     except Exception as e:
         messagebox.showerror("Error", str(e))
